@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My simple website</title>
+    <link rel="stylesheet" href="web.css">
+    </head>
+    <body>
+        <header>
+            <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+            <div id="popupMenu" class="popup-menu">
+                <a href="my website.html" onclick="toggleMenu()">Home</a>
+                <a href="about.html" onclick="toggleMenu()">About</a>
+                <a href="https://portals.iucn.org/library/sites/library/files/documents/2010-073.pdf" onclick="toggleMenu()">Download</a>
+            </div>
+    
+            <h1>WELCOME TO NATURE RESERVES IN GHANA 
+                <img src="ghana-flag-vector-20246813.jpg" style="height:40px; vertical-align: text-bottom; background-color: green;">
+            </h1>
+            <p><marquee>Discover the beauty and biodiversity of Ghana's protected natural spaces.</marquee></p>
+        </header>
+        <nav>
+            <ul>
+                <!--<li><a class="home-link" href="my website.html">Home</a></li>
+                <li><a class="about-link"href="about.html">About</a></li>
+            -->
+            </ul>
+        </nav>
+        <section>
+            <div class="leaf-border-card">
+                <h3>🌿What is a Nature Reserve?</h3>
+            <p>Nature Reserve is a protected area designated for the concervation of wildlife, plants and natural habitats.
+                These areas are established to safeguard biodiversity, preserve ecosystems and sometimes support scientific research and 
+                education.
+                These can be managed by governments, private organizations, or conservation groups, and they often have restrictions 
+                on human activities like hunting, deforestation, or construction to minimize environment impact.
+            </p>
+            </div>
+            <h1 class="section-title">NATURE RESERVES IN GHANA
+                <img src="ghana-flag-vector-20246813.jpg" style="height:30px; vertical-align: text-bottom;">
+            </h1>
+
+            <script>
+                function toggleMenu() {
+                    var menu = document.getElementById("popupMenu");
+                    if (menu.style.display === "block") {
+                        menu.style.display = "none";
+                    } else {
+                        menu.style.display = "block";
+                    }
+                }
+function toggleMenu() {
+    const menu = document.getElementById("popupMenu");
+    menu.classList.toggle("show");
+}
+
+
+
+            </script>
+
+
+
+
+            
+            <a href="aburi.html" class="card-link">
+                <div class="card">
+                    <img src="aburi.jpg" alt="aburi gardens"/>
+                <div class="card-title">Aburi Botanical Gardens</div>
+                 </div>
+            </a>
+<br>
+            <a href="bia.html" class="card-link">
+                <div class="card">
+                    <img src="Bia-National-Park-1.jpeg" alt="bia"/>
+                <div class="card-title">Bia National Park</div>
+                 </div>
+            </a>
+                <br>
+                <a href="paga.html" class="card-link">
+                <div class="card">
+                    <img src="paga-crocodiles-12.jpg" alt="paga"/>
+                <div class="card-title">Paga Crocodile Pond</div>
+                 </div>
+            </a>   <br>
+               <a href="shai.html" class="card-link">
+                <div class="card">
+                    <img src="shai-hills-vista.jpg" alt="shai"/>
+                <div class="card-title">Shai Resource Reserve</div>
+                 </div>
+            </a>      <br>
+              <a href="bunso.html" class="card-link">
+                <div class="card">
+                    <img src="IMG_3133-min.jpg" alt="bunso"/>
+                <div class="card-title">Bunso Aboretum Forest Reserve</div>
+                 </div>
+            </a>  
+            <br> <br> <br>
+            <br> <br>
+            <a href="my website2.html">
+            <button>See More</button>
+            </a>
+
+        </section>
+
+<section class="fact-cards">
+    <h3 style="text-align: center; color: #2e7d32;">Quick Facts About Nature Reserves</h3>
+    <div class="card-container">
+        <div class="card">
+<h4>🍀Biodiversity</h4>
+<p>Home to over 500 unique plant species.</p>
+    </div>
+    <div class="card">
+        <h4>🦒Wildlife</h4>
+        <p>Provides shelter for endangered animals like elephants and antelopes.</p>
+    </div>
+    <div class="card">
+        <h4>🌡️Climate</h4>
+        <p>Helps regulate temperature and rainfall across the region.</p>
+    </div>
+</div>
+</section>
+
+
+        <section class="comment-box">
+                <h3>Leave a Comment</h3>
+                <form id="commentForm">
+                    <input type="text" id="name" placeholder="Your name" required>
+                    <textarea id="comment" placeholder="Write your comment here..." required></textarea>
+                    <button type="submit">Post Comment</button>
+                </form>
+                <div id="commentSection"></div>
+
+            </section>
+<button onclick="window.scrollTo({top: 0, behavior: 'smooth'});" class="top-btn">&uarr;</button>
+<style>
+    .top-btn {
+        position:fixed;
+        bottom: 80px;
+        right: 10px;
+        padding: 5px 5px;
+        border-radius: 10%;
+        background: #4caf50;
+        color: white;
+        border: none;
+        cursor: pointer;
+        width: 30px;
+    }
+</style>
+
+        
+        <section id="contact">
+            <h3>Connect with us</h3>
+            <a href="tel:0248286530"><i class="fa fa-phone"></i>Phone</a>
+            <a href="mail:godwinabedi4@gmail.com"><i class="fa fa-envelope"></i>Email</a>
+            <a href="https://wa.me/0248286530" target="_blank" class="whatsapp"><i class="fab fa-whatsapp"></i>Whatsapp</a>
+            <a href="https://www.tiktok.com/cash3781" target="_blank"><i class="fab fa-tiktok"></i>Tiktok</a>
+    
+            </section>
+        <footer>
+            <p>&copy; 2025 Nature Ghana. All rights reserved.</p>
+        </footer>
+    </body>
+    </html>
+
+
